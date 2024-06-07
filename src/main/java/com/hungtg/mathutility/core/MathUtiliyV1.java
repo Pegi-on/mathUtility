@@ -13,7 +13,7 @@ package com.hungtg.mathutility.core;
 
 public class MathUtiliyV1 {
      public static long getFactorial(int n) {
-        long product = 1;
+        long product = 15;
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Invalid n, n must be between 0 to 20");
         }
